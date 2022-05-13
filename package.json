@@ -1,0 +1,21 @@
+{
+    "name": "math-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "express": "^4.17.3",
+        "forex-rates": "^1.0.3",
+        "sqlite3": "^5.0.5"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.16"
+    }
+}
